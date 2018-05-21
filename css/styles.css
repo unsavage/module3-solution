@@ -4,27 +4,38 @@ body {
 }
 
 /**header**/
-.navbar-header h1 { /* Restaurant name */
+
+.navbar,
+.navbar-brand {
+  /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #000000;
-  font-size: 2em;
-  font-weight: bold;
+  color: #000000 !important;
+  font-size: 1.5em;
+  font-weight: 400;
   text-shadow: 1px 1px 1px #222;
 }
-.navbar-header a:hover, .navbar-header a:focus{
-	text-decoration: none;
+
+.navbar a {
+  color: #000 !important;
+  font-weight: 200;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  text-decoration: none;
 }
 
 /**text body**/
-.row div{
-	background-color: #8D8D8D;
-	height: 1000px
-}
-.navbar{
-	background-color: #8D8D8D;
 
+.navbar,
+.textarea {
+  background-color: #8D8D8D;
 }
 
-ul li a{
-	text-align: center;
+.textarea {
+  height: 1000px;
+}
+
+ul li a {
+  text-align: center;
 }

@@ -1,64 +1,85 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>module3 assignment solution</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>module3 assignment solution</title>
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+</head>
+
 <body>
   <header>
-    <nav id="hidden-nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-expand-lg fixed-top navbar-dark">
       <div class="container">
-        <div class="navbar-header">
-            <a href="index.html" class="pull-left"><h1>Food,LLS</h1></a>
-
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+        <a href="index.html" class="navbar-brand">Food LLS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarResponsive">
+          <ul class="navbar-nav ml-auto d-md-none ">
+            <li class="active nav-item">
+              <a class="nav-link" href="menu-categories.html">Chicken</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Beef</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sushi</a>
+            </li>
+          </ul>
         </div>
-
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
-            <li>
-              <a href="menu-categories.html"> Chicken</a>
-            </li>
-            <li>
-              <a href="#"> Beef</a>
-            </li>
-            <li>
-              <a href="#"> Sushi</a>
-            </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
+      </div>
+    </div>
   </header>
 
-  <div id="main-content" class="container">
-    <h2 id="title" class="text-center">Our Menu</h2>
-    <div class="row">
-      <div class="col-xs-12">stand a chance against the wealth of the Trifect? We could buy your soul from the gods.” Thren had fought down his initial impulse to bury a shortsword in the fat man’s throat. A terrible mistake in hindsight. They had met inside his extravagant mansion, another mistake. Thren vowed to correct his carelessness in the coming months. He had tried to stop the war from erupting, but it appeared everyone in Veldaren desired chaos. If the city wants blood, it can have it, Thren thought. But it won’t be mine. “Are you in here, father?” he heard his elder son ask from an adjacent room. Thren held his anger in check. “And if I was not?” he asked. His son Randith entered from the other room. He looked much like his father, having the same sharp features, thin nose, and grim smile. His hair was brown like his mother’s, and that alone endeared him to Thren. They both wore the gray trousers and cloaks of their guild. A long rapier hung from one side of his belt, a dagger from the other. Randith’s blue eyes met his father’s. “Then I’d kill you,” Randith said, a cocky grin pulling up the left side of his face. “Where is the mage?” the guildmaster asked. “Connington’s men cut me with a toxin, and its effect is troublesome.” Troublesome hardly described it, but Thren wouldn’t let his son know that. His flight from the mansion was a blur in his memory. The toxin had numbed his arm and made his entire side sting with pain. His neck muscles had fired off at random, and one of his knees kept locking up during his run. He had felt like a cripple as he fled through the alleyways of Veldaren, but the moon was waning and the streets empty, so none had seen his pathetic stumbling. “Cregon isn’t here,” Randith said as he leaned toward his father’s exposed shoulder and examined the cut. “Then go find him,” Thren said. “And where is Senke? He was supposed to bring me word from Gemcroft.” “Maynard Gemcroft’s men fired arrows from their windows</div>
-    </div>
+  <div class="container-fluid">
+    <div class="row pt-5">
 
+      <div id="main-content" class="container">
+        <div class="row pt-5">
+          <div class="text-center col-md-12">
+            <h1>Our Menu</h1>
+          </div>
+          <div class="textarea col-md-12">stand a chance against the wealth of the Trifect? We could buy your soul from the gods.” Thren had fought down
+            his initial impulse to bury a shortsword in the fat man’s throat. A terrible mistake in hindsight. They had met
+            inside his extravagant mansion, another mistake. Thren vowed to correct his carelessness in the coming months.
+            He had tried to stop the war from erupting, but it appeared everyone in Veldaren desired chaos. If the city wants
+            blood, it can have it, Thren thought. But it won’t be mine. “Are you in here, father?” he heard his elder son
+            ask from an adjacent room. Thren held his anger in check. “And if I was not?” he asked. His son Randith entered
+            from the other room. He looked much like his father, having the same sharp features, thin nose, and grim smile.
+            His hair was brown like his mother’s, and that alone endeared him to Thren. They both wore the gray trousers
+            and cloaks of their guild. A long rapier hung from one side of his belt, a dagger from the other. Randith’s blue
+            eyes met his father’s. “Then I’d kill you,” Randith said, a cocky grin pulling up the left side of his face.
+            “Where is the mage?” the guildmaster asked. “Connington’s men cut me with a toxin, and its effect is troublesome.”
+            Troublesome hardly described it, but Thren wouldn’t let his son know that. His flight from the mansion was a
+            blur in his memory. The toxin had numbed his arm and made his entire side sting with pain. His neck muscles had
+            fired off at random, and one of his knees kept locking up during his run. He had felt like a cripple as he fled
+            through the alleyways of Veldaren, but the moon was waning and the streets empty, so none had seen his pathetic
+            stumbling. “Cregon isn’t here,” Randith said as he leaned toward his father’s exposed shoulder and examined the
+            cut. “Then go find him,” Thren said. “And where is Senke? He was supposed to bring me word from Gemcroft.” “Maynard
+            Gemcroft’s men fired arrows from their windows</div>
+        </div>
+
+      </div>
+
+    </div>
   </div>
 
-
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="dist/jquery.bootstrap-autohidingnavbar.min.js"></script>
   <script src="js/script.js"></script>
- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<script src="dist/jquery.bootstrap-autohidingnavbar.min.js"></script>
- $("div.navbar-fixed-top").autoHidingNavbar();
-</script>
+  <script>
+    $("div.navbar.fixed-top").autoHidingNavbar();
+  </script>
 </body>
+
 </html>
