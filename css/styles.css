@@ -39,3 +39,8 @@ body {
 ul li a {
   text-align: center;
 }
+
+.textarea h2{
+	text-align: center;
+	font-weight: bold;	
+}
